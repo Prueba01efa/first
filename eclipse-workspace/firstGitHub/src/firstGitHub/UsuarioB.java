@@ -17,7 +17,7 @@ public class UsuarioB {
 		numbers.add(80);
 		numbers.add(45);
 		
-		//Mostrar media 
+		//Mostrar media del Array
 		System.out.printf("La media es : %d",contadorNumbers(numbers));
 		
 
