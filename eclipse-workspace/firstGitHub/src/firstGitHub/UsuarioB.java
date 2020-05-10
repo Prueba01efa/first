@@ -1,8 +1,21 @@
 package firstGitHub;
 
 import java.util.ArrayList;
-public class UsuarioB {
 
+/**
+ * Creamoa un ArrayList, introducimos ciertos numeros y despues 
+ * mediante un mensaje llamamos al metodo contadonNumbers para ver
+ * la media de estos
+ * @author andexo
+ *
+ */
+public class UsuarioB {
+	
+	/**
+	 * Metodo Main, se crea el ArrayList, se introduce los numeros
+	 * y se llama al metodo contadoNumbers
+	 * 
+	 */
 	public static void main(String[] args) {
 	
 				
@@ -22,7 +35,13 @@ public class UsuarioB {
 		
 
 	}
-	
+	/**
+	 * Metodo, recorre el for tantas numeros el ArrayList tenga
+	 * los suma a una variable suma y luego retorna la media de estos
+	 * 
+	 * @param a ArrayList pasado en el main 
+	 * @return devuelve media de los numeros 
+	 */
 	public static int contadorNumbers(ArrayList<Integer> a) {
 		int suma=0;
 		for (int i = 0; i < a.size(); i++) {
