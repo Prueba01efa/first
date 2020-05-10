@@ -1,0 +1,1 @@
+memberSearchIndex = [{"p":"firstGitHub","c":"UsuarioB","l":"contadorNumbers(ArrayList<Integer>)","url":"contadorNumbers(java.util.ArrayList)"},{"p":"firstGitHub","c":"UsuarioB","l":"main(String[])","url":"main(java.lang.String[])"},{"p":"firstGitHub","c":"UsuarioB","l":"UsuarioB()","url":"%3Cinit%3E()"}]
