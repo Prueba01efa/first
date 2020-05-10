@@ -6,9 +6,20 @@ import java.util.ArrayList;
 
 import org.junit.jupiter.api.Test;
 
+/**
+ * Classe prueba de main.java, tenemos 2 pruebas diferentes , una con numeros pequeños
+ * y otra con numeros grandes
+ * @author Prueba01efa
+ *
+ */
 class MainTest {
-
+	
 	@Test
+	/**
+	 * Crea un ArrayList de enteros, rellena con numeros y despues 
+	 * introducimos en una varianle el resultado del metodo contadorArray de Main
+	 * hacemos un assertEquals para comprobar resultado
+	 */
 	public void numerosSmall() {
 		ArrayList<Integer> small = new ArrayList<Integer>();
 		small.add(1);
@@ -23,6 +34,11 @@ class MainTest {
 	}
 	
 	@Test
+	/**
+	 * Crea un ArrayList de enteros, rellena con numeros y despues 
+	 * introducimos en una varianle el resultado del metodo contadorArray de Main
+	 * hacemos un assertEquals para comprobar resultado
+	 */
 	public void numerosBig() {
 		ArrayList<Integer> small = new ArrayList<Integer>();
 		small.add(1000);
